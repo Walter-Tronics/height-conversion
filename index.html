@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>height Conversion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="box">
+        <h2>Height Converter</h2>
+        <!--Switch starts-->
+        <div id="change">
+            <button id="btn" style="float: left;">To Feet & Inch</button>
+            <button id="btn2" style="float: right;">To Centimeter</button>
+        </div>
+        <!--Switch ends-->
+        
+        <section id="sect">
+            <input type="text" placeholder="Enter value in 'cm'" id="data">
+            <center>
+                <div id="output-group">
+                    <div class="sub">
+                        <input type="text" disabled id="output">
+                        <span>Feet</span>
+                    </div>
+                    <div class="sub">
+                        <input type="text" disabled id="output2">
+                        <span>Inches</span>
+                    </div>
+                </div>
+            </center>
+            <span>Result in Feet and Inches</span>
+            <button id="convert">Convert</button>
+        </section>
+
+        <!--The Reverse Section-->
+
+        <section id="sect2">
+            <center>
+                <div id="output-group">
+                    <div class="sub">
+                        <input type="text" id="input">
+                        <span>Feet</span>
+                    </div>
+                    <div class="sub">
+                        <input type="text" id="input2">
+                        <span>Inches</span>
+                    </div>
+                </div>
+            </center>
+            <input type="text" id="result" disabled>
+            <span>Result in Centimeter</span>
+            <button id="convert2">Convert</button>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
