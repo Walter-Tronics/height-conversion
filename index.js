@@ -5,9 +5,10 @@ output = document.querySelector('#output'),
 output2 = document.querySelector('#output2'),
 input = document.querySelector('#input'),
 input2 = document.querySelector('#input2'),
-let btn = document.querySelector('#btn');
-let btn2 = document.querySelector('#btn2');
-let sect = document.querySelector('#sect');
+btn = document.querySelector('#btn'),
+btn2 = document.querySelector('#btn2'),
+sect = document.querySelector('#sect');
+
 let sect2 = document.querySelector('#sect2');
 let body = document.querySelector('body');
 let link = document.querySelector('a');
