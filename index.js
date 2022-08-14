@@ -7,11 +7,11 @@ input = document.querySelector('#input'),
 input2 = document.querySelector('#input2'),
 btn = document.querySelector('#btn'),
 btn2 = document.querySelector('#btn2'),
-sect = document.querySelector('#sect');
+sect = document.querySelector('#sect'),
 
-let sect2 = document.querySelector('#sect2');
-let body = document.querySelector('body');
-let link = document.querySelector('a');
+sect2 = document.querySelector('#sect2'),
+body = document.querySelector('body'),
+link = document.querySelector('a');
 
 //Showing the 'To Centimeter Section'
 btn2.addEventListener('click',()=>{
