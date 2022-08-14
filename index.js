@@ -1,10 +1,10 @@
 window.onload=function(){
-let data = document.querySelector('#data');
-let result = document.querySelector('#result');
-let output = document.querySelector('#output');
-let output2 = document.querySelector('#output2');
-let input = document.querySelector('#input');
-let input2 = document.querySelector('#input2');
+let data = document.querySelector('#data'),
+result = document.querySelector('#result'),
+output = document.querySelector('#output'),
+output2 = document.querySelector('#output2'),
+input = document.querySelector('#input'),
+input2 = document.querySelector('#input2'),
 let btn = document.querySelector('#btn');
 let btn2 = document.querySelector('#btn2');
 let sect = document.querySelector('#sect');
