@@ -17,6 +17,7 @@ body{
     left:50%;
     transform:translate(-50%,-50%);
     background: #191919;
+    border-radius: 8px;
     text-align:center;
 }
 #box h2{
