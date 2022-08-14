@@ -1,4 +1,4 @@
-window.onload=function(){
+window.onload=()=>{
 let data = document.querySelector('#data'),
 result = document.querySelector('#result'),
 output = document.querySelector('#output'),
