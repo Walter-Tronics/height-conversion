@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    outline: none;
+    color: #fff;
 }
 body{
     background: #2ecc71;
@@ -21,12 +23,10 @@ body{
     text-align:center;
 }
 #box h2{
-    color: white;
     text-transform: uppercase;
     font-family: sans-serif;
 }
 #box span{
-    color: white;
     font-family: sans-serif;
     font-size: .8rem;
     font-weight: 600;
@@ -42,8 +42,6 @@ body{
     font-size: 1.2rem;
     background: none;
     border-bottom: 2px solid #3498db;
-    color: white;
-    outline: none;
     transition: 0.5s;
 }
 #box #change{
@@ -51,7 +49,6 @@ body{
 }
 
 #box #change button{
-    outline: none;
     transition: .3s;
     border: 2px solid transparent;
     font-size: 1rem;
@@ -85,11 +82,7 @@ body{
     margin: 0;
     border: 0;
 }
-@media screen and (max-width: 300px){
-    #output-group .sub input{
-        text-align: left;
-    }
-}
+@media screen and (max-width: 300px) {#output-group .sub input{text-align: left;} }
 #output-group .sub span{
     font-size: 1.2rem;
     margin: 0;
@@ -105,14 +98,12 @@ body{
     width: 100%;
     margin-top: 10px;
     background: #2ecc71;
-    color: white;
     border: none;
     border-radius: 20px;
     padding: 10px 0;
     font-size: 1.2rem;
     font-family: sans-serif;
     cursor: pointer;
-    outline: none;
 }
 #box button:active{
     transform: scale(1.05);
